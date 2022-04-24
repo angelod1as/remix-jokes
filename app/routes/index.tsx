@@ -23,6 +23,10 @@ export default function Index() {
           <ul>
             <li>
               <Link to="jokes">Read Jokes</Link>
+              <br />
+              <Link to="jokes.rss" reloadDocument>
+                RSS
+              </Link>
             </li>
           </ul>
         </nav>
